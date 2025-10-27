@@ -44,11 +44,7 @@ def load_model_from_weights(path):
     model.load_weights(path)
     return model
 
-@st.cache_resource
-def load_model(path):
-    return tf.keras.models.load_model(path)
-
-model = load_model(MODEL_PATH)
+model = load_model_from_weights(MODEL_PATH)
 class_names = ["gudeg", "gulai", "rendang", "soto"]
 
 # Upload & Predict
