@@ -12,7 +12,7 @@ st.title("Prediksi Masakan Nusantara (gudeg | gulai | rendang | soto)")
 st.write("Model: **ResNet50 (scratch)** — dilatih tanpa pretrained weights.")
 
 # Load Model
-MODEL_PATH = "resnet50_best.h5"
+MODEL_PATH = "Custom_A_AlekSnack.weights.h5"
 
 if not os.path.exists(MODEL_PATH):
     st.error(f"Model tidak ditemukan: {MODEL_PATH}. Pastikan file .h5 berada di folder yang sama.")
