@@ -72,4 +72,4 @@ else:
     st.info("Upload gambar untuk melihat hasil prediksi.")
 
 st.markdown("---")
-st.caption("© 2025 Prediksi Masakan Nusantara — Model: ResNet50 dari awal (tanpa pretrained weights)")
+st.caption("© 2025 Prediksi Masakan Nusantara — Model: Definisi Sendiri")
